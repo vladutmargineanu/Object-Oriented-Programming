@@ -1,0 +1,18 @@
+Acest magazin isi imparte clientii in 3 categorii : clienti obisnuiti, clienti fideli si angajati . In functie de tipul fecaruia , se poate primi o anumita reducere . 
+Clientul fidel va avea o reducere de 10% , angajatul una de 15%.
+
+Produsele vandute de acest magazin pot fi in lei , euro sau lire , insa noi dorim sa aflam pretul final ce va fi oferit in lei . 
+Putem considera urmatoarele aproximari :
+1 euro = 4.6 lei
+1 lira = 5.2 lei 
+
+Initial , se va converti pretul din euro/lire/lei in lei , dupa care se vor aplica reducerile de 10%(clientii fideli) sau de 15% pentru angajati.
+
+Se va citi de la stdin pana la intalnirea cuvantului stop .
+Ex : client 20 euro
+ (un string , un intreg , un string ) (sau client 20 lire) ( sau client 20 lei )
+
+ 
+ Se va scrie la stdout.
+Ex: Client: 92 lei
+(tipul clientului si pretul final in lei )
